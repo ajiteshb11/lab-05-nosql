@@ -1,5 +1,4 @@
 
-```javascript
 // Step 2: Switch to the bookstore database
 db = db.getSiblingDB("bookstore");
 
@@ -52,4 +51,3 @@ db.books.find({
     $in: ["author_001", "author_004"]
   }
 }).forEach(printjson);
-```
